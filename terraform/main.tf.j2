@@ -1,0 +1,14 @@
+# Fournisseur AWS et région de déploiement
+provider "aws" {
+  region = "eu-north-1"  # Région Stockholm (modifiable)
+}
+
+# Ressource EC2
+resource "aws_instance" "example" {
+  ami           = "{{ ami_id }}"            # ID de l'image AMI (Ubuntu, Amazon Linux, etc.)
+  instance_type = "{{ instance_type }}"     # Type d'instance (ex: t3.micro)
+
+  tags = {
+    Name = "{{ instance_name }}"            # Nom de l'instance (tag AWS)
+  }
+}
