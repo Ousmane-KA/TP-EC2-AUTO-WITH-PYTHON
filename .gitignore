@@ -1,0 +1,22 @@
+# Dossier généré par Terraform à ignorer
+.terraform/
+
+# Fichiers d'état Terraform
+*.tfstate
+*.tfstate.*
+
+# Logs Terraform
+crash.log
+*.log
+terraform.tfplan
+
+.terraform/
+*.tfstate
+*.tfstate.backup
+crash.log
+
+# Dossiers Python
+__pycache__/
+*.pyc
+venv/
+.env
