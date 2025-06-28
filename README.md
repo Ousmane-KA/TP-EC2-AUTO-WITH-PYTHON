@@ -94,11 +94,6 @@ terraform destroy -auto-approve
 
 ---
 
-## 📚 Ressources
-
-* [Terraform](https://www.terraform.io/)
-* [Flask](https://flask.palletsprojects.com/)
-* [AWS CLI](https://aws.amazon.com/cli/)
 
 ---
 
