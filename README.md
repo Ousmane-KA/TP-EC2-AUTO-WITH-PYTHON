@@ -87,14 +87,6 @@ terraform destroy -auto-approve
 
 ---
 
-## 🔧 Personnalisation
-
-* Modifier la région AWS dans `main.tf.j2`
-* Ajouter d’autres paramètres Terraform dans le template
-
----
-
-
 ---
 
 ## 🙋‍♂️ Auteur
