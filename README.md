@@ -1,7 +1,7 @@
 
 ---
 
-# 📦 TP - Création Automatique d’une Instance EC2 avec Python & Terraform
+# 📦 Création Automatique d’une Instance EC2 avec Python & Terraform
 
 ---
 
