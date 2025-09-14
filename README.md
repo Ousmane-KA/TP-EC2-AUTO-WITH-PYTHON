@@ -16,7 +16,7 @@ Ce projet permet de **créer automatiquement une instance EC2** AWS via une inte
 * Formulaire web pour saisir le nom, choisir l’AMI et le type d’instance.
 * Génération dynamique du fichier Terraform à partir d’un template Jinja2.
 * Exécution des commandes Terraform (`init`, `apply`) via Python.
-* 🗑Option pour détruire l’instance EC2 (à ajouter si besoin).
+* Option pour détruire l’instance EC2 (à ajouter si besoin).
 * Région AWS fixée à `eu-north-1` (modifiable).
 
 ---
@@ -94,4 +94,5 @@ terraform destroy -auto-approve
 *Ousmane KA*
 
 ---
+
 
