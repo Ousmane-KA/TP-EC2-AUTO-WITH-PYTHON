@@ -1,23 +1,23 @@
 
 ---
 
-# 📦 Création Automatique d’une Instance EC2 avec Python & Terraform
+# Création Automatique d’une Instance EC2 avec Python & Terraform
 
 ---
 
-## 🚀 Présentation
+## Présentation
 
 Ce projet permet de **créer automatiquement une instance EC2** AWS via une interface web simple développée avec **Flask (Python)** et en utilisant **Terraform** pour gérer l’infrastructure.
 
 ---
 
-## 🧱 Fonctionnalités
+## Fonctionnalités
 
-* 📄 Formulaire web pour saisir le nom, choisir l’AMI et le type d’instance.
-* ⚙️ Génération dynamique du fichier Terraform à partir d’un template Jinja2.
-* 🔧 Exécution des commandes Terraform (`init`, `apply`) via Python.
-* 🗑️ Option pour détruire l’instance EC2 (à ajouter si besoin).
-* 📍 Région AWS fixée à `eu-north-1` (modifiable).
+* Formulaire web pour saisir le nom, choisir l’AMI et le type d’instance.
+* Génération dynamique du fichier Terraform à partir d’un template Jinja2.
+* Exécution des commandes Terraform (`init`, `apply`) via Python.
+* 🗑Option pour détruire l’instance EC2 (à ajouter si besoin).
+* Région AWS fixée à `eu-north-1` (modifiable).
 
 ---
 
@@ -36,7 +36,7 @@ TP-EC2-AUTO-WITH-PYTHON/
 
 ---
 
-## ⚙️ Prérequis
+## Prérequis
 
 * Python 3.x
 * Terraform installé et accessible en ligne de commande
@@ -45,7 +45,7 @@ TP-EC2-AUTO-WITH-PYTHON/
 
 ---
 
-## 🚀 Lancer le projet
+## Lancer le projet
 
 1. **Cloner le dépôt** (ou copier les fichiers)
 
@@ -77,7 +77,7 @@ http://127.0.0.1:5000/
 
 ---
 
-## 🗑️ Supprimer l’instance
+## Supprimer l’instance
 
 Dans le dossier `terraform/`, exécuter :
 
@@ -89,8 +89,9 @@ terraform destroy -auto-approve
 
 ---
 
-## 🙋‍♂️ Auteur
+## Auteur
 
 *Ousmane KA*
 
 ---
+
